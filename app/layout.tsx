@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getLocale, getMessages } from "next-intl/server";
 
 import Header from "./src/components/header/Header";
 import { cookies } from "next/headers";
@@ -17,12 +17,14 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const messages = await getMessages();
+  const locale = await getLocale()
   const cookie = await cookies();
 
   return (
     <html lang={`${cookie.get("lang")?.value || "en"}`} className="h-full antialiased">
       <body
         className="
+        h-screen
           min-h-screen
           bg-gradient-to-br
           from-zinc-950
@@ -33,10 +35,11 @@ export default async function RootLayout({
           selection:text-black
         "
       >
-        <NextIntlClientProvider  messages={messages}>
+        <NextIntlClientProvider messages={messages}>
           <div
             className="
-              min-h-[calc(100vh-24px)]
+            h-[calc(100vh-24px)]
+              overflow-y-auto
               rounded-3xl
               border
               border-zinc-800/80
@@ -45,6 +48,7 @@ export default async function RootLayout({
               backdrop-blur-xl
             "
           >
+            
             <Header />
             {children}
           </div>

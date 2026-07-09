@@ -1,7 +1,9 @@
+import { useTranslations } from "next-intl";
 import LayoutAnimation from "./ChangeLayout";
+import Link from "next/link";
 
 export default function Items() {
-  
+  const t = useTranslations("Header")
   return (
     <nav className="
         flex
@@ -9,17 +11,17 @@ export default function Items() {
         text-gray-300
       ">
       <LayoutAnimation />
-      <a className="hover:text-yellow-400 transition">
-        Home
-      </a>
+      <Link href={"/"} className="hover:text-yellow-400 transition">
+        {t('Home')}
+      </Link>
 
-      <a className="hover:text-yellow-400 transition">
-        Projects
-      </a>
+      <Link href={"/projects"} className="hover:text-yellow-400 transition">
+        {t("Projects")}
+      </Link>
 
-      <a className="hover:text-yellow-400 transition">
-        Contact
-      </a>
+      <Link href={"/about"} className="hover:text-yellow-400 transition">
+        {t("About")}
+      </Link>
     </nav>
   )
 }

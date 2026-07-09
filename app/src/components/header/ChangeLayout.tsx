@@ -43,9 +43,8 @@ export default function LayoutAnimation() {
       const data = await res.json()
 
       setLang(data.lang)
-
+      console.log(data)
       router.refresh()
-
     } catch (err) {
       console.error(err)
     }

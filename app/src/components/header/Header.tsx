@@ -14,6 +14,8 @@ export default async function Header() {
       border-white/10
       bg-black/20
       backdrop-blur-md
+      sticky
+      top-0
     ">
       <div>
         <h1

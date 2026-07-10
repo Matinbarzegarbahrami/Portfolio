@@ -1,12 +1,128 @@
 {
-  "Header":{
-    "Home":"Home",
-    "About":"About",
-    "Projects":"Projects"
+  "Header": {
+    "Home": "Home",
+    "About": "About",
+    "Projects": "Projects"
   },
   "Home": {
     "title": "Hey, I'm Matin 👋",
     "description": "I'm a 21-year-old developer who somehow turned coffee and curiosity into websites. I've been building with React and Next.js for over two years, and I still get excited every time an idea turns into a real project.",
     "coffee": "Coffee's on me ☕"
+  },
+  "skills": {
+    "list": [
+      {
+        "id": 1,
+        "name": "Next.js",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "icon": "SiReact"
+      },
+      {
+        "id": 3,
+        "name": "TypeScript",
+        "icon": "SiTypescript"
+      },
+      {
+        "id": 4,
+        "name": "JavaScript",
+        "icon": "SiJavascript"
+      },
+      {
+        "id": 5,
+        "name": "HTML5",
+        "icon": "SiHtml5"
+      },
+      {
+        "id": 6,
+        "name": "CSS3",
+        "icon": "SiCss3"
+      },
+      {
+        "id": 7,
+        "name": "Tailwind CSS",
+        "icon": "SiTailwindcss"
+      },
+      {
+        "id": 8,
+        "name": "Sass",
+        "icon": "SiSass"
+      },
+      {
+        "id": 9,
+        "name": "Redux Toolkit",
+        "icon": "SiRedux"
+      },
+      {
+        "id": 10,
+        "name": "Zustand",
+        "icon": "SiZustand"
+      },
+      {
+        "id": 12,
+        "name": "Prisma",
+        "icon": "SiPrisma"
+      },
+      {
+        "id": 13,
+        "name": "Git",
+        "icon": "SiGit"
+      },
+      {
+        "id": 14,
+        "name": "GitHub",
+        "icon": "SiGithub"
+      },
+      {
+        "id": 15,
+        "name": "REST API",
+        "icon": "SiOpenapiinitiative"
+      },
+      {
+        "id": 16,
+        "name": "React Native",
+        "icon": "SiReact"
+      },
+      {
+        "id": 17,
+        "name": "Figma",
+        "icon": "SiFigma"
+      },
+      {
+        "id": 18,
+        "name": "python",
+        "icon": "python"
+      },
+      {
+        "id": 19,
+        "name": "django",
+        "icon": "django"
+      }
+    ]
+  },
+  "Skills": {"title":"my skills"},
+  "WorkHistory": {
+    "experience": "WorkExperience",
+    "list": [
+      {
+        "name": "Hiltiran Strategic Development Company",
+        "position": "Frontend Developer Intern",
+        "workingTime": "September 2025 - February 2026 (6 months)",
+        "description": "- Developed and implemented responsive user interfaces\n- Contributed to the development of the ticketing system\n- Collaborated on mobile application development using React Native",
+        "alt": "Hiltiran logo",
+        "image": "/images/Hiltiran_Logo.jpg"
+      },
+      {
+        "name": "Hiltiran Strategic Development Company",
+        "position": "Frontend Developer",
+        "workingTime": "March 2026 - Present",
+        "description": "- Designed and completed the order registration workflow\n- Integrated and managed APIs across different parts of the platform\n- Developed and optimized responsive user interfaces\n- Implemented new features for the mobile application using React Native\n- Fixed bugs, improved performance, and enhanced user experience",
+        "alt": "Hiltiran logo",
+        "image": "/images/Hiltiran_Logo.jpg"
+      }
+    ]
   }
 }

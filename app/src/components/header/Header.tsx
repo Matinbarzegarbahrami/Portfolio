@@ -3,7 +3,9 @@ import Items from "./HeadresItem";
 export default async function Header() {
 
   return (
-    <header className="
+    <header 
+    dir="ltr"
+    className="
       w-full
       px-8
       py-6
@@ -13,14 +15,16 @@ export default async function Header() {
       border-b
       border-white/10
       bg-black/20
-      backdrop-blur-md
+      backdrop-blur-sm
       sticky
       top-0
+      z-50
     ">
       <div>
         <h1
           className="
-            text-4xl
+            lg:text-4xl
+            md:text-2xl
             font-extrabold
             tracking-tight
             bg-linear-to-r
@@ -28,9 +32,11 @@ export default async function Header() {
             to-yellow-600
             bg-clip-text
             text-transparent
+            text-lg
+
           "
         >
-          Header Name
+          MATIN BARZEGAR
         </h1>
       </div>
 

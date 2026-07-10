@@ -55,8 +55,10 @@ export default function LayoutAnimation() {
     <button
       onClick={toggleSwitch}
       className={`
-        w-[50px] 
-        h-[30px] 
+        w-[40px]
+        lg:w-[50px] 
+
+        lg:h-[30px] 
         bg-yellow-600 
         relative 
         rounded-full 
@@ -70,8 +72,10 @@ export default function LayoutAnimation() {
 
       <motion.div
         className="
-          w-[14px]
-          h-[14px]
+        w-[8px]
+          lg:w-[14px]
+          h-[8px]
+          lg:h-[14px]
           bg-yellow-900
           rounded-full
         "
@@ -86,9 +90,10 @@ export default function LayoutAnimation() {
       <motion.p
         className={`
           absolute 
-          top-[5px]
+          top-[2.5px]
+          lg:top-[5px]
           text-xs
-          ${isEn ? "left-1.5" : "right-1.5"}
+          ${isEn ? "left-1.5" : "right-1.5 lg:right-2"}
         `}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

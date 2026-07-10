@@ -21,7 +21,7 @@ export default async function RootLayout({
   const cookie = await cookies();
 
   return (
-    <html lang={`${cookie.get("lang")?.value || "en"}`} className="h-full antialiased">
+    <html lang={`${cookie.get("locale")?.value || "en"}`} dir={locale === "fa" ? "rtl" : "ltr"} className="h-full antialiased">
       <body
         className="
         h-screen

@@ -18,7 +18,7 @@ export default function Profile(){
       >
         <div className="w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] lg:w-[350px] lg:h-[350px] rounded-3xl flex-shrink-0">
           <Image
-            src="/images/home.jpg"
+            src={"/images/HomeProfile.jpg"}
             alt="home-pic"
             width={350}
             height={350}

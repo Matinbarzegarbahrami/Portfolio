@@ -7,7 +7,8 @@
   "Home": {
     "title": "Hey, I'm Matin 👋",
     "description": "I'm a 21-year-old developer who somehow turned coffee and curiosity into websites. I've been building with React and Next.js for over two years, and I still get excited every time an idea turns into a real project.",
-    "coffee": "Coffee's on me ☕"
+    "coffee": "Coffee's on me ☕",
+    "contact": "Contact Me"
   },
   "skills": {
     "list": [
@@ -103,7 +104,9 @@
       }
     ]
   },
-  "Skills": {"title":"my skills"},
+  "Skills": {
+    "title": "my skills"
+  },
   "WorkHistory": {
     "experience": "WorkExperience",
     "list": [
@@ -122,6 +125,24 @@
         "description": "- Designed and completed the order registration workflow\n- Integrated and managed APIs across different parts of the platform\n- Developed and optimized responsive user interfaces\n- Implemented new features for the mobile application using React Native\n- Fixed bugs, improved performance, and enhanced user experience",
         "alt": "Hiltiran logo",
         "image": "/images/Hiltiran_Logo.jpg"
+      }
+    ]
+  },
+  "Projects": {
+    "list": [
+      {
+        "name": "Divar Clone",
+        "description": "-Advertisement listing\n-Create, edit, and delete advertisements (for security reasons, newly created advertisements are not displayed in the public listing)\n-Bookmark advertisements\n-Implemented JWT authentication",
+        "note": "",
+        "images": [],
+        "url": "https://divar-clone-blond.vercel.app"
+      },
+      {
+        "name": "Hiltiran (Peyshen)",
+        "description": "-Developed the ticketing system\n-Implemented responsive design\n-Completed the order registration workflow\n-Integrated backend APIs with the frontend",
+        "note": "I can't share screenshots because the application is still under development.",
+        "images": [],
+        "url": ""
       }
     ]
   }

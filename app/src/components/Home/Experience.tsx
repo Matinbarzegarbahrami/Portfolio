@@ -13,7 +13,6 @@ export default function ExperienceWorking() {
 
 
 const locale = useLocale()
-console.log(locale)
   return (
     <motion.div className="mt-14"
     initial={{y:-30,opacity:0}}

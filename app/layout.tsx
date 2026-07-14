@@ -50,7 +50,9 @@ export default async function RootLayout({
           >
             
             <Header />
+            <div className="py-6 text-white">
             {children}
+            </div>
           </div>
         </NextIntlClientProvider>
       </body>

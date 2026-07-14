@@ -132,17 +132,19 @@
     "list": [
       {
         "name": "Divar Clone",
-        "description": "-Advertisement listing\n-Create, edit, and delete advertisements (for security reasons, newly created advertisements are not displayed in the public listing)\n-Bookmark advertisements\n-Implemented JWT authentication",
+        "description": "Advertisement listing\nCreate, edit, and delete advertisements (for security reasons, newly created advertisements are not displayed in the public listing)\nBookmark advertisements\nImplemented JWT authentication",
         "note": "",
         "images": [],
-        "url": "https://divar-clone-blond.vercel.app"
+        "url": "https://divar-clone-blond.vercel.app",
+        "viewProject":"View Project"
       },
       {
         "name": "Hiltiran (Peyshen)",
-        "description": "-Developed the ticketing system\n-Implemented responsive design\n-Completed the order registration workflow\n-Integrated backend APIs with the frontend",
+        "description": "Developed the ticketing system\nImplemented responsive design\nCompleted the order registration workflow\nIntegrated backend APIs with the frontend",
         "note": "I can't share screenshots because the application is still under development.",
         "images": [],
-        "url": ""
+        "url": "",
+        "viewProject":""
       }
     ]
   }

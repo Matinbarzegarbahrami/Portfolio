@@ -4,4 +4,5 @@ export type Project = {
   note:string;
   image:[]
   url:string;
+  viewProject:string;
 }
